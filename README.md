@@ -8,3 +8,9 @@
 - [ ] wireframe
 - [ ] angle based ascii edges
 - [ ] depth based coloring
+
+## TOWDON'T (i probably wont do this)
+- [ ] 3d file compatibitity
+- [ ] camera transform
+- [ ] game engine basics (like game objects movement)
+- [ ] nice api

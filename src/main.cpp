@@ -56,7 +56,7 @@ void draw(std::vector<Vector3d> vertisies){
     for(int i{};i < vertisies.size();i++){
         vec2 = vertisies.at(i).rotate_xz(angle).translate_z(4).project();
         vec2 = vec2.screen();
-        mvaddch(vec2.y,vec2.x,'#');
+        mvaddch(vec2.y,vec2.x,'o');
     }
 };
 
@@ -80,7 +80,7 @@ int main(){
     while(true){
         refresh();
         clear();
-        angle += 2* M_PI * 1/FPS;
+        angle += 1* M_PI * 1/FPS;
         getmaxyx(stdscr,height,width);
         height--;
         width--;
